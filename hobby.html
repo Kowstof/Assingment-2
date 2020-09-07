@@ -6,11 +6,100 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/about.css">
 
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #intro {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #intro span {
+      width: 50%;
+    }
+
+    #cards {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card {
+      width: 20%;
+      border: 1px solid #ccc;
+      display: flex;
+      flex-direction: column;
+      padding: 0 15px 10px 15px;
+      box-shadow: 0 4px 5px #ccc;
+    }
+
+    .card img {
+      max-width: 100%;
+    }
+
+    .card h2,
+    .card p,
+    .card a {
+      align-self: center;
+    }
+
+    .card p {
+      margin-top: auto;
+    }
+  </style>
 </head>
 
-<body style="display: block;">
-  <h1>Music Making</h1>
-  <iframe width="50%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1123998592&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kowstof" title="kowstof" target="_blank" style="color: #cccccc; text-decoration: none;">kowstof</a> · <a href="https://soundcloud.com/kowstof/sets/showcase" title="Showcase" target="_blank" style="color: #cccccc; text-decoration: none;">Showcase</a></div>
+<body>
+  <div id="intro">
+    <span>
+      <h1>Music Making</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </span>
+    <iframe style="margin-top: 30px;" width="45%" height="400" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1123998592&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  </div>
+
+
+  <div id="gear">
+    <h1 style="margin: 60px 0;">Some Gear I Use</h1>
+
+    <div id="cards">
+
+      <div class="card">
+        <h2>Arturia KeyLabs MKII</h2>
+        <img src="img/hobby1.jpg">
+        <p>A MIDI keyboard that makes no sound of its own, it's used as a controller for the virtual instruments and synthesizers on my PC.</p>
+        <a href="https://www.arturia.com/store/hybrid-synths/keylab-essential-61" class="button" target="_blank">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h2>Bitwig Studio</h2>
+        <img src="img/hobby2.png" style="margin-top: 30px;">
+        <p>This is the production software I use. It lets me record in audio, play virtual instruments, arrange tracks and add effects.</p>
+        <a href="https://www.bitwig.com/en/home.html" class="button" target="_blank">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h2>Focusrite Scarlett 2i2</h2>
+        <img src="img/hobby3.jpg">
+        <p>A bundle including a condenser micorphone, studio headphones, and an interface to connect both to my PC.</p>
+        <a href="https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2-studio" class="button" target="_blank">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h2>Roland FP-30</h2>
+        <img src="img/hobby4.jpg" style="margin-top: 40px;">
+        <p>A digital piano with high quality sounds, a weighed keybed and piano-action keys to replicate the feel of a real piano.</p>
+        <a href="https://www.roland.com/au/products/fp-30/" class="button" target="_blank">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 
 </html>

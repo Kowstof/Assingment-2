@@ -16,9 +16,9 @@ function updateHeight(page) {
     frame.style.height = '500px';
   }
   else if (page.id == "town") {
-    frame.style.height = '1700px';
+    frame.style.height = '1800px';
   }
   else {
-    frame.style.height = '800px';
+    frame.style.height = '1300px';
   }
 }
