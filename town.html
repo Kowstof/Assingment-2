@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home Town</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/about.css">
+  <style>
+    body {
+      flex-direction: column;
+    }
+
+    #intro {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #town {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #town img {
+      width: 31%;
+      border-radius: 5px;
+    }
+
+    #read-more {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .place {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .place a {
+      width: 25%;
+      border-radius: 8px;
+    }
+
+    .place a img {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .place a img:hover {
+      transform: scale(1.02);
+      transition: 0.1s;
+    }
+
+    .place span {
+      width: 50%;
+      margin: 0 30px;
+    }
+
+    .place-title {
+      margin-top: 0;
+      font-size: 22pt;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="intro">
+    <h1>Frýdek-Místek</h1>
+    <p>Just some text from wikipedia to take up space, i'll replace it with my own later. Frýdek-Místek (Czech pronunciation: [ˈfriːdɛk ˈmiːstɛk], Polish: Frydek-Mistek; German: Friede(c)k-Mistek) is a city in the Moravian-Silesian Region of the Czech Republic. It is the administrative centre of Frýdek-Místek District.
+      Frýdek-Místek is located at the confluence of the rivers Ostravice and Morávka in the foothills of the Beskyds near the borders of Poland (25 km) and Slovakia (35 km). The city has about 55,000 inhabitants. Nowadays, there are over 80,000
+      residents in Frýdek-Místek city including its suburbs of separate municipalities (Staré Město, Sviadnov, Baška, Dobrá, Palkovice and other municipalities). </p>
+
+    <div id="town">
+      <img src="img/town1.jpg">
+      <img src="img/town2.jpg">
+      <img src="img/town3.jpg">
+    </div>
+
+    <div id="read-more">
+      <h2 style="width: 100%; text-align: center;">Read More On</h2>
+      <a href="https://www.frydekmistek.cz/en" class="button" target="_blank">Town's Website</a>
+      <a href="https://en.wikipedia.org/wiki/Fr%C3%BDdek-M%C3%ADstek" class="button" target="_blank">Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="places">
+    <h1>What to Do There?</h1>
+    <p>Since Frýdek-Místek is quite small, there isn't anything too exciting in the town itself. There are a couple of bars, restaurants, even a minigolf course and an aquatic centre, but those things aren't truly representative of the area. However, just a 15-minute drive in any direction from the town can take you to many authentic locations, both modern and historical. Below are some examples of the many unique places that you can experience. <em>Click on the images to learn more about each place.</em></p>
+
+    <div class="place">
+      <a href="https://www.visitostrava.eu/en/discover-ostrava/top-10/8047-mining-museum-landek-park.html" target="_blank">
+        <img src="img/place1.jpeg">
+      </a>
+      <span>
+        <h2 class="place-title">Mining Museum Landek Park</h2>
+        <p>These are some words I'm going to replace with actual descriptive text alter, righr now they just serve as filler text.</p>
+      </span>
+    </div>
+
+    <div class="place">
+      <a href="https://www.visitostrava.eu/en/discover-ostrava/top-10/8052-new-city-hall-viewing-tower.html" target="_blank">
+        <img src="img/place2.jpeg">
+      </a>
+      <span>
+        <h2 class="place-title">New City Hall Viewing Tower</h2>
+        <p>These are some words I'm going to replace with actual descriptive text alter, righr now they just serve as filler text.</p>
+      </span>
+    </div>
+
+    <div class="place">
+      <a href="https://www.visitostrava.eu/en/discover-ostrava/top-10/611-silesian-ostrava-castle.html" target="_blank">
+        <img src="img/place3.jpeg">
+      </a>
+      <span>
+        <h2 class="place-title">Silesian Ostrava Castle</h2>
+        <p>These are some words I'm going to replace with actual descriptive text alter, righr now they just serve as filler text.</p>
+      </span>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

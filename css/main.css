@@ -1,0 +1,57 @@
+body {
+  font-family: 'Source Sans Pro';
+  background: linear-gradient(45deg, #e74c3c 15%, #9b59b6 85%);
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  margin: 60px auto;
+  font-size: 24pt;
+  font-family: 'Julius Sans One';
+}
+
+#header h1 {
+  font-family: 'Roboto Slab';
+  border: 7px solid white;
+  padding: 10px;
+}
+
+#main {
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background: #e4e4e4;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 15px 50px;
+  background: #e4e4e4;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #636363;
+  font-weight: 300;
+  font-size: 14pt;
+}
+
+nav a:hover {
+  background: lightgray;
+}
+
+a.active, a.active:hover {
+  background: white;
+}
+
+iframe {
+  background: #fff;
+  width: 70vw;
+  border: none;
+}

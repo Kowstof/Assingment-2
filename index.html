@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Krystof Pavlis</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Krystof Pavlis</h1>
+    </div>
+
+    <div id="main">
+      <nav>
+        <a href="about.html" id="about" class="active nav" target="main" onclick="setActive(this)">About</a>
+        <a href="town.html" id="town" class="nav" target="main" onclick="setActive(this)">Home Town</a>
+        <a href="hobby.html" id="hobby" class="nav" target="main" onclick="setActive(this)">Hobby</a>
+      </nav>
+
+      <iframe name="main" src="about.html" height="500px" id="frame"></iframe>
+    </div>
+  </body>
+</html>

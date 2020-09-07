@@ -1,0 +1,58 @@
+body {
+  font-family: 'Source Sans Pro';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #292b2c;
+  padding: 30px 50px;
+}
+
+.profile {
+  border: 2px solid #292b2c;
+  border-radius: 50%;
+  width: 200px;
+  align-self: center;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.link {
+  vertical-align: middle;
+  font-size: 13pt;
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0 30px;
+  font-size: 14pt;
+}
+
+h1 {
+  font-family: 'Roboto Slab';
+  display: inline-block;
+  border-bottom: 2px solid #e74c3c;
+}
+
+.button {
+  background: #e74c3c;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 0 10px 50px 0;
+  width: 150px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.button:hover {
+  background: #a1352a;
+  transition: 0.1s;
+}
